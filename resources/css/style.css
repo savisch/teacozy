@@ -5,6 +5,7 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    margin: 0;
 }
 
 /*HEADER SECTION*/
@@ -17,6 +18,9 @@ header {
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    background-color: black;
+    z-index: 5;
+    margin: 0;
 }
 .logo img {
     height: 50px;
@@ -31,3 +35,34 @@ header nav span {
     text-decoration: underline;
     padding: 20px 10px;
 }
+
+/*MAIN CONTENT SECTION*/
+.maincontent {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: auto;
+    padding-top: 69px;
+    border: 1px solid red;
+    opacity: 0.9;
+}
+.mission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+    background-image: url(../images/img-mission-background.jpg);
+    border: 1px solid blue;
+    padding-top: 10px;
+}
+h2, h4 {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+.content {
+    background-color: black;
+    width: 100%;
+}
+
