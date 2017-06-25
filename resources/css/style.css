@@ -31,7 +31,6 @@ nav {
     min-width: 600px;
 }
 nav span {
-    display: inline block;
     text-decoration: underline;
     padding: 20px 10px;
 }
