@@ -25,15 +25,18 @@ header {
     height: 50px;
     padding-left: 10px;
 }
-header nav {
+nav {
     padding-right: 10px;
     text-align: right;
     min-width: 600px;
 }
-header nav span {
+nav span {
     display: inline block;
     text-decoration: underline;
     padding: 20px 10px;
+}
+nav a {
+    color: white;
 }
 
 /*MAIN CONTENT SECTION*/
@@ -60,7 +63,7 @@ header nav span {
 h2, h4 {
     text-align: center;
     margin: 0px;
-    padding: 5px;
+    padding: 10px;
 }
 .content {
     background-color: black;
@@ -118,7 +121,6 @@ h2, h4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 .address {
     display: flex;
@@ -126,8 +128,34 @@ h2, h4 {
     width: 300px;
     height: 280px;
     background-color: black;
+    opacity: 1;
     margin: 15px 20px;
 }
 .address span {
     padding: 18px 5px;
 }
+/*FOOTER SECTION*/
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    padding-top: 10px;
+    border: 3px solid purple;
+}
+.contact h2 {
+    padding-bottom: 30px;
+}
+.contact h5 {
+    padding: 15px;
+    margin: 0;
+}
+.copyright {
+    text-align: left;
+    padding-top: 20px;
+}
+
