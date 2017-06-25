@@ -26,8 +26,9 @@ header {
     padding-left: 10px;
 }
 header nav {
-    display: flex;
     padding-right: 10px;
+    text-align: right;
+    min-width: 600px;
 }
 header nav span {
     display: inline block;
@@ -101,5 +102,32 @@ h2, h4 {
     padding: 10px;
     border: 3px solid white;
 }
-
-
+/*LOCATIONS SECTION*/
+.locations {
+    display: flex;
+    flex-direction: column;
+    height: 570px;
+    margin-top: 60px;
+    background-image: url(../images/img-locations-background.jpg);
+    border: 3px solid aqua;
+}
+.heading {
+    padding-top: 60px;
+}
+.addresses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+    background-color: black;
+    margin: 15px 20px;
+}
+.address span {
+    padding: 18px 5px;
+}
