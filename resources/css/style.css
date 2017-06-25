@@ -46,7 +46,6 @@ nav a {
     width: 1200px;
     margin: auto;
     padding-top: 69px;
-    border: 3px solid red;
     opacity: 0.9;
 }
 /*MISSION SECTION*/
@@ -57,7 +56,6 @@ nav a {
     height: 700px;
     width: 1200px;
     background-image: url(../images/img-mission-background.jpg);
-    border: 3px solid blue;
     padding-top: 10px;
 }
 h2, h4 {
@@ -68,7 +66,6 @@ h2, h4 {
 .content {
     background-color: black;
     width: 100%;
-    border: 3px solid pink;
 }
 /*TEAS SECTION*/
 .store {
@@ -79,7 +76,6 @@ h2, h4 {
     margin: auto;
     padding-top: 60px;
     padding-bottom: 10px;
-    border: 3px solid orange;
 }
 .teas {
     display: flex;
@@ -92,7 +88,6 @@ h2, h4 {
     flex-direction: column;
     width: 300px;
     height: 240px;
-    border: 3px solid yellow;
     margin: 10px;
 }
 .item img {
@@ -103,7 +98,6 @@ h2, h4 {
     margin: auto;
     font-weight: bold;
     padding: 10px;
-    border: 3px solid white;
 }
 /*LOCATIONS SECTION*/
 .locations {
@@ -112,7 +106,6 @@ h2, h4 {
     height: 570px;
     margin-top: 60px;
     background-image: url(../images/img-locations-background.jpg);
-    border: 3px solid aqua;
 }
 .heading {
     padding-top: 60px;
@@ -145,7 +138,6 @@ h2, h4 {
     height: 200px;
     justify-content: center;
     padding-top: 10px;
-    border: 3px solid purple;
 }
 .contact h2 {
     padding-bottom: 30px;
